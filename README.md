@@ -4,7 +4,7 @@ Public marketing website for Maia Front Desk, by Gavakata Software LLC.
 
 - GitHub Pages: https://xglenng.github.io/maia-website/
 - Sites: https://maia-front-desk.xglenng.chatgpt.site
-- App installation: https://maia-front-desk-production.up.railway.app/install
+- App installation: https://app.maia.gavakatasoftware.com/install
 
 ## Source and publishing
 
@@ -16,4 +16,4 @@ After editing the HTML, synchronize the Pages entry point:
 python3 scripts/sync-pages.py
 ```
 
-A GitHub push updates GitHub Pages only. Sites publishing is separate. The Maia application and API remain hosted on Railway.
+A GitHub push updates GitHub Pages only. Sites publishing is separate. The Maia application runs on Render at https://app.maia.gavakatasoftware.com.
