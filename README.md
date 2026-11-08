@@ -10,6 +10,10 @@ Public marketing website for Maia Front Desk, by Gavakata Software LLC.
 
 `dist/index.html` and `dist/style.css` are the Sites deployment source. The root `index.html` mirrors that page with its stylesheet pointing to `dist/style.css`, for GitHub Pages configured to publish `main` / root. `.nojekyll` disables Jekyll processing.
 
+Demo images live in `dist/images/demo/`. They are captures of a local Maia instance with fictional data; the inbox conversation and draft are scripted examples rather than live AI output. The sync script adjusts image links for the root Pages entry point.
+
+The interactive sample chat in `dist/demo.js` runs entirely in the browser with scripted replies and fictional services and times. It does not send messages, store contact details, create appointments, or process payments. The sync script also adjusts its script path for GitHub Pages.
+
 After editing the HTML, synchronize the Pages entry point:
 
 ```sh
